@@ -1,0 +1,591 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eeebeb;
+}
+html {
+    scroll-behavior: smooth;
+}
+.img-burger{
+    width: 100%;
+    position: absolute;
+    height: 730px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+header{
+    background-color: rgb(211, 223, 199);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    height: 80px;
+}
+
+.logo{
+    width: 200px;
+    position: relative;
+    left: 30px;
+    bottom: 47px;
+}
+
+nav{
+    float: right;
+    position: relative;
+    top: 30px;
+    right: 50px;
+}
+
+.navbar{
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(74, 53, 53);
+    font-family: "Poppins", sans-serif;
+    margin-right: 70px;
+    transition: all 0.3s;
+}
+
+.navbar:hover{
+    color: rgb(138, 114, 114);
+}
+.contact-btn{   
+    border: none;     
+}
+
+.contact-btn a{
+    border-radius: 5px;
+    background-color: rgb(138, 114, 114);
+    padding: 13px 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.contact-btn a:hover{
+    background-color: #6e6951;
+    color: white;
+}
+main{
+    width: 100%;
+}
+
+.content{
+    width: 650px;
+    position: relative;
+    left: 150px;
+    top: 100px;
+}
+.content-title{
+    font-family: "Luckiest Guy", cursive;
+    font-size: 80px;
+    color: rgb(74, 89, 89);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px #5a6054;
+    letter-spacing: 3px;
+}
+
+.content-info{
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+    color: #5a6054;
+    padding: 10px 0;
+    font-style: italic;
+}
+
+.button-content{
+    position: relative;
+    top: 30px;
+}
+
+.order-btn{
+    border: none;
+    border-radius: 30px;
+}
+.order-btn a{
+    padding: 15px 50px;
+    font-size: 17px;
+    background-color: #5a6054;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.order-btn a:hover{
+    background-color:  #5f6c51;
+}
+
+.menu-btn{
+    border: none;
+    position: relative;
+    left: 10px;
+    border-radius: 30px;
+}
+
+.menu-btn a{
+    border-radius: 30px;
+    padding: 15px 50px;
+    background-color: #e3c43b;
+    font-size: 17px;
+    color: brown;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.menu-btn a:hover{
+    background-color: #d9bb32;
+}
+#food{
+    position: relative;
+    top: 310px;
+}
+.food-card{
+    bottom: 10px;
+    width: 600px;
+    height: 70px;
+    background-color: #e3c43b;
+    border-radius: 60px;
+    position: relative;
+    left: 30%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#bg-img2{
+    position: relative;
+    top: 30px;
+    height: 100%;
+}
+
+.background2{
+    width: 100%; 
+    position: absolute; 
+    height: 850px; 
+}
+
+.food-card-title{
+    font-size: 18px;
+    color: #5a6054;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 25px;
+    font-style: italic;
+}
+
+.food-content{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 70px;
+    flex-wrap: wrap;
+}
+
+.burger-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}
+.menu-burger{
+    font-size: 90px;
+    font-family: "Luckiest Guy", cursive;
+    color: brown;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px #5a6054;
+    letter-spacing: 2px;
+}
+.burger-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foods{
+    width: 270px;
+    height: 270px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 20px 20px;
+    border-radius: 10px;
+    background-color: #eeebeb;
+}
+
+.burger-pictures{
+    width: 150px;
+    height: 150px;
+    transition: transform .2s;  
+    position: relative;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.burger-pictures:hover{
+    transform: scale(1.2); 
+}
+.burgers-name{
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+}
+.bg-name{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color:brown;
+    font-weight: bold;
+}
+
+.burger-info{
+    position: relative;
+    top: 5px;
+    padding-right: 12px;
+
+}
+
+.burger-described{
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    color: brown;   
+}
+
+.star{
+    position: relative;
+    top: 5px;
+}
+.checked{
+    color: orange;
+    font-size: 13px;
+}
+.no-check{
+    font-size: 13px;
+}
+.burger-prices{
+    position: relative;
+    top: 40px;
+}
+
+.price{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: brown;
+    width: 100px;
+}
+
+.burger-icon{
+    float: right;
+    position: relative;
+    right: 15px;
+    bottom: 30px;
+}
+
+.icon-buy{
+    text-decoration: none;
+    color: brown;
+    background-color: orange;
+    font-family: "Poppins", sans-serif;
+    padding: 8px 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.icon-buy:hover{
+    background-color: rgb(227, 161, 37);
+}
+
+#container{
+    height: 900px;
+    position: relative;
+    top: 200px;
+}
+
+.bg-3{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-img4{
+    width: 100%;
+    height: 850px;
+    border-radius: 2em / 5em; 
+}
+.container-content{
+    position: absolute;
+    width: 900px;
+    height: 600px;
+    top: 150px;
+}
+
+.content-inside{
+    width: 800px;
+    position: relative;
+    left: 130px;
+    top: 30px;
+}
+
+.inside-content{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.inside-content2{
+    font-size: 50px;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.par-content{
+    width: 600px;
+}
+.par-content1{
+    font-family: "Poppins", sans-serif;
+}
+
+.content-box{
+    position: relative;
+    top: 20px;
+}
+.box1{
+    display: inline-block;
+    height: 190px;
+    width: 180px;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.box1-img{
+    width: 180px;
+    height: 130px;
+    border-radius: 10px;
+}
+.box-title{
+    display: block;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    padding: 8px 0;
+    background-color: #5a6054;
+    margin: 10px;
+    border-radius: 20px;
+}
+.box-title:hover{
+    background-color: #6f7667;
+}
+.stories{
+    position: relative;
+    top: 160px;
+}
+
+.story-title{
+   position: relative;
+   top: 30px;
+}
+
+.our-stories{
+    font-size: 50px;
+    font-family: "Luckiest Guy", cursive;
+    color: brown;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.story-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+}
+.story-image{
+    width: 280px;
+    height: 190px;
+    border-radius: 10px; 
+}
+
+.story-info{
+    width: 280px;
+    height: 290px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: rgb(251, 241, 241);
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px; 
+    
+}
+.title-info{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    padding: 5px 0 0 5px;
+}
+
+.paragraph{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.meaning{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    padding: 5px 5px;
+}
+
+footer{
+    background-color: rgb(255, 208, 208);
+    height: 250px;
+    position: relative;
+    top: 250px;
+}
+.about-content{
+    position: relative;
+    top: 20px;
+}
+
+.footer-logo{
+    position: relative;
+    left: 150px;
+}
+
+.footer-img{
+    width: 200px;
+}
+
+.follow{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #5a6054;
+    margin-bottom: 5px;
+}
+.footer-icon{
+    position: absolute;
+    top: 130px;
+    left: 150px;
+}
+
+.fa{
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.fa-facebook{
+    padding: 10px 13px;
+    background: #1e386f;
+    color: white;
+}
+.fa-facebook:hover{
+    background: #404190;
+}
+.fa-instagram{
+    background: #5776b9;
+    color: white;
+}
+.fa-instagram:hover{
+    background: #2c3c5d;
+}
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+.fa-twitter:hover{
+    background: #4499da;
+}
+.fa-snapchat-ghost{
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-snapchat-ghost:hover{
+    background: #01e62b;
+}
+
+.footer-content{
+  position: absolute;
+  left: 35%;
+  bottom: 20%;
+  top: 60px;
+}
+
+.footer-link{
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(74, 53, 53);
+    font-family: "Poppins", sans-serif;
+    transition: all 0.3s;
+    line-height: 40px;
+}
+
+.footer-link:hover{
+    color: rgb(138, 114, 114);
+}
+
+.quicklinks{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+.links{
+    font-size: 25px;
+    font-family: "Luckiest Guy", cursive;
+    color: #5a6054;
+    letter-spacing: 1px;
+}
+.footer-content1{
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    top: 60px;
+}
+.footer-content2{
+    position: absolute;
+    left: 65%;
+    bottom: 20%;
+    top: 60px;
+}
+
+.footer-order{
+    float: right;
+    position: absolute;
+    right: 10%;
+    bottom: 65%;
+}
+
+.order-online{
+    font-size: 25px;
+    font-family: "Luckiest Guy", cursive;
+    color: #5a6054;
+    letter-spacing: 1px;
+}
+
+.footer-button{
+    position: relative;
+    top: 15px;
+}
+.footer-btn{
+    text-decoration: none;
+    padding: 8px 50px;
+    border: 1px solid brown;
+    border-radius: 5px;
+    color: #5a6054;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    transition: 0.2s;
+}
+.footer-btn:hover{
+    background-color: #5a6054;
+    color: white;
+    
+}
+
